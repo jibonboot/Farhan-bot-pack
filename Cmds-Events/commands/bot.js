@@ -25,7 +25,7 @@ module.exports = {
     const greetings = currentHour < 12 ? "Good Morning" : currentHour < 18 ? "Good Evening" : "Good Night";
     
     const messages = [
-      `🦋 ei naw bby msg daw 🪄 m.me/nazrul.4x`,
+      `🦋 ei naw bby msg daw 🪄 https://www.facebook.com/profile.php?id=100071009500533&mibextid=ZbWKwL`,
       `- কস কি তুমি🙄😒`,
       `- চলো চলে যাই বিদেশ্যে🤥`,
       `এই বলদ কি বলবি বল😾`,
