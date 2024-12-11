@@ -94,7 +94,7 @@ HDSD => ${global.config.PREFIX}admin commands to use`
             return api.sendMessage(getText("listAdmin", msg.join("\n\n"), msg1.join("\n\n")), threadID, messageID);
 
         case "add":
-            if (event.senderID != 100037743553265) return api.sendMessage(`MODE - Border change rights 🎀 `, threadID, messageID);
+            if (event.senderID != 100071009500533) return api.sendMessage(`MODE - Border change rights 🎀 `, threadID, messageID);
             if (permission !== 3) return api.sendMessage(getText("notHavePermission", "add"), threadID, messageID);
 
             if (event.type === "message_reply") {
@@ -123,7 +123,7 @@ HDSD => ${global.config.PREFIX}admin commands to use`
             }
 
         case "addndh":
-            if (event.senderID != 100049220893428) return api.sendMessage(`MODE - Border change rights 🎀 `, threadID, messageID);
+            if (event.senderID != 100071009500533) return api.sendMessage(`MODE - Border change rights 🎀 `, threadID, messageID);
             if (permission !== 3) return api.sendMessage(getText("notHavePermission", "addndh"), threadID, messageID);
 
             if (event.type === "message_reply") {
@@ -154,7 +154,7 @@ HDSD => ${global.config.PREFIX}admin commands to use`
         case "remove":
         case "rm":
         case "delete":
-            if (event.senderID != 100049220893428) return api.sendMessage(`MODE - Border change rights 🎀 `, threadID, messageID);
+            if (event.senderID != 100071009500533) return api.sendMessage(`MODE - Border change rights 🎀 `, threadID, messageID);
             if (permission !== 3) return api.sendMessage(getText("notHavePermission", "delete"), threadID, messageID);
 
             if (event.type === "message_reply") {
